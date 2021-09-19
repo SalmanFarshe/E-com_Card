@@ -36,7 +36,7 @@ var colorLiThree = document.querySelector(".color_li_3")
 var product = document.querySelector(".product")    
     //colorOne event start 
 function colorLiOnefunc(){
-    product.src = "../img/red_shoe.png"
+    product.src = "../img/2.png"
     colorLiOne.classList.add("active")
     colorLiTwo.classList.remove("active")
     colorLiThree.classList.remove("active")
@@ -45,7 +45,7 @@ colorLiOne.addEventListener("click", colorLiOnefunc)
 //colorOne event end
     //colorTwo event start
 function colorLiTwofunc(){
-    product.src = "../img/blue_shoe.png"
+    product.src = "../img/3.png"
     colorLiOne.classList.remove("active")
     colorLiTwo.classList.add("active")
     colorLiThree.classList.remove("active")
@@ -54,7 +54,7 @@ colorLiTwo.addEventListener("click", colorLiTwofunc)
     //colorTwo event end
     //colortHREE event start
 function colorLiThreefunc(){
-    product.src = "../img/green_shoe.png"
+    product.src = "../img/4.png"
     colorLiOne.classList.remove("active")
     colorLiTwo.classList.remove("active")
     colorLiThree.classList.add("active")
@@ -68,7 +68,7 @@ var resetting = document.querySelector(".reaet_button")
 function resettingFnc(){
     count = 1;
     counterNumber.innerHTML = `0${count}`
-    product.src = "../img/shoe.png"
+    product.src = "../img/1.png"
     colorLiOne.classList.remove("active")
     colorLiTwo.classList.remove("active")
     colorLiThree.classList.remove("active")
